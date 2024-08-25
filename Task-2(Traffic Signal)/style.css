@@ -1,0 +1,29 @@
+.container{
+    width: 50px;
+    height: 100px;
+    background-color: black;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 500px;
+}
+.container> *{
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 2px;
+}
+.container> .red{
+    background-color: red;
+}
+.container> .yellow{
+    background-color: yellow;
+}
+.container> .green{
+    background-color: green;
+}
+.parent{
+    width: 10px;
+    height: 20px;
+    background-color: black;
+    margin-left: 524px;
+}
